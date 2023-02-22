@@ -1,62 +1,63 @@
 <ADI>
-	<Metadata>
-		<AMS Asset_Class="package" Asset_ID="SWVP0000000000000044" Asset_Name="Medora-Package" Creation_Date="2022-09-11" Description="Medora-Package" Product="MOD" Provider="SWERVE" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
-		<App_Data App="MOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1" />
-		<App_Data App="MOD" Name="Provider_Content_Tier" Value="SWERVE" />
-	</Metadata>
-	<Asset>
-		<Metadata>
-			<AMS Asset_Class="title" Asset_ID="SWVT0000000000000044" Asset_Name="Medora-Package" Creation_Date="2022-09-11" Description="Medora-Title" Product="MOD" Provider="SWERVE" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
+    <Metadata>
+        <AMS Asset_Class="package" Asset_ID="SWVP0000000000000044" Asset_Name="Medora-Package" Creation_Date="2022-09-11" Description="Medora-Package" Product="MOD" Provider="SWERVE" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
+        <App_Data App="MOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1" />
+        <App_Data App="MOD" Name="Provider_Content_Tier" Value="SWERVE" />
+    </Metadata>
+    <Asset>
+        <Metadata>
+            <AMS Asset_Class="title" Asset_ID="SWVT0000000000000044" Asset_Name="Medora-Package" Creation_Date="2022-09-11" Description="Medora-Title" Product="MOD" Provider="SWERVE" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
             <App_Data App="MOD" Name="Category" Value="Sports/Outdoors" />
             <App_Data App="MOD" Name="Sling_Category" Value="Basketball" />
             <App_Data App="MOD" Name="Genre" Value="Documentary" />
-			<App_Data App="MOD" Name="Ad_Content_ID" Value="SWVP0000000000000044" />
-			<App_Data App="MOD" Name="Billing_ID" Value="0" />
-			<App_Data App="MOD" Name="Closed_Captioning" Value="Y" />
-			<App_Data App="MOD" Name="Contract_Name" Value="SWERVE" />
-			<App_Data App="MOD" Name="Display_Run_Time" Value="01:40" />
-			<App_Data App="MOD" Name="Distributor_Name" Value="Swerve" />
-			<App_Data App="MOD" Name="TMS_ID" Value="" />
-			<App_Data App="MOD" Name="Licensing_Window_Start" Value="2021-11-16T00:00:00Z" />
-			<App_Data App="MOD" Name="Licensing_Window_End" Value="2023-11-15T00:00:00Z" />
-			<App_Data App="MOD" Name="Maximum_Viewing_Length" Value="" />
-			<App_Data App="MOD" Name="Provider_QA_Contact" Value="trey@swerve.tv" />
-			<App_Data App="MOD" Name="Rating" Value="NR" />
-			<App_Data App="MOD" Name="Run_Time" Value="01:40" />
-			<App_Data App="MOD" Name="Summary_Short" Value="Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright)." />
-			<App_Data App="MOD" Name="Title" Value="Forrest Gump" />
-			<App_Data App="MOD" Name="Title_Brief" Value="Medora" />
-			<App_Data App="MOD" Name="Type" Value="title" />
-			<App_Data App="MOD" Name="Year" Value="1994" />
-			<App_Data App="MOD" Name="Display_As_Last_Chance" Value="7" />
-			<App_Data App="MOD" Name="Program_Type" Value="movie" />
-		<App_Data App="MOD" Name="Actors" Value="Tom Hanks, Robin Wright" /></Metadata>
-		<Asset>
-			<Metadata>
-				<AMS Asset_Class="movie" Asset_ID="SWVM0000000000000044" Asset_Name="Medora-Movie" Creation_Date="2022-09-11" Description="Medora-Movie" Product="MOD" Provider="G&amp;S" Provider_ID="gunpowdersky.com" Verb="" Version_Major="1" Version_Minor="0" />
-				<App_Data App="MOD" Name="Content_FileSize" Value="14700000000" />
-				<App_Data App="MOD" Name="HDContent" Value="Y" />
-				<App_Data App="MOD" Name="Languages" Value="en" />
-				<App_Data App="MOD" Name="Type" Value="movie" />
-				<App_Data App="MOD" Name="trickModesRestricted" Value="FF" />
-				<App_Data App="MOD" Name="Ad_Break_0" Value="00:00:00;00" />
-				<App_Data App="MOD" Name="Ad_Break_1" Value="00:10:51;25" />
-				<App_Data App="MOD" Name="Ad_Break_2" Value="00:21:21;13" />
-				<App_Data App="MOD" Name="Ad_Break_3" Value="00:31:44;11" />
-				<App_Data App="MOD" Name="Ad_Break_4" Value="00:42:09;07" />
-				<App_Data App="MOD" Name="Ad_Break_5" Value="00:53:02;05" />
+            <App_Data App="MOD" Name="Ad_Content_ID" Value="SWVP0000000000000044" />
+            <App_Data App="MOD" Name="Billing_ID" Value="0" />
+            <App_Data App="MOD" Name="Closed_Captioning" Value="Y" />
+            <App_Data App="MOD" Name="Contract_Name" Value="SWERVE" />
+            <App_Data App="MOD" Name="Display_Run_Time" Value="01:40" />
+            <App_Data App="MOD" Name="Distributor_Name" Value="Swerve" />
+            <App_Data App="MOD" Name="TMS_ID" Value="" />
+            <App_Data App="MOD" Name="Licensing_Window_Start" Value="2021-11-16T00:00:00Z" />
+            <App_Data App="MOD" Name="Licensing_Window_End" Value="2023-11-15T00:00:00Z" />
+            <App_Data App="MOD" Name="Maximum_Viewing_Length" Value="" />
+            <App_Data App="MOD" Name="Provider_QA_Contact" Value="trey@swerve.tv" />
+            <App_Data App="MOD" Name="Rating" Value="NR" />
+            <App_Data App="MOD" Name="Run_Time" Value="01:40" />
+            <App_Data App="MOD" Name="Summary_Short" Value="Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright)." />
+            <App_Data App="MOD" Name="Title" Value="Forrest Gump" />
+            <App_Data App="MOD" Name="Title_Brief" Value="Medora" />
+            <App_Data App="MOD" Name="Type" Value="title" />
+            <App_Data App="MOD" Name="Year" Value="1994" />
+            <App_Data App="MOD" Name="Display_As_Last_Chance" Value="7" />
+            <App_Data App="MOD" Name="Program_Type" Value="movie" />
+            <App_Data App="MOD" Name="Actors" Value="Tom Hanks, Robin Wright" />
+        </Metadata>
+        <Asset>
+            <Metadata>
+                <AMS Asset_Class="movie" Asset_ID="SWVM0000000000000044" Asset_Name="Medora-Movie" Creation_Date="2022-09-11" Description="Medora-Movie" Product="MOD" Provider="G&amp;S" Provider_ID="gunpowdersky.com" Verb="" Version_Major="1" Version_Minor="0" />
+                <App_Data App="MOD" Name="Content_FileSize" Value="14700000000" />
+                <App_Data App="MOD" Name="HDContent" Value="Y" />
+                <App_Data App="MOD" Name="Languages" Value="en" />
+                <App_Data App="MOD" Name="Type" Value="movie" />
+                <App_Data App="MOD" Name="trickModesRestricted" Value="FF" />
+                <App_Data App="MOD" Name="Ad_Break_0" Value="00:00:00;00" />
+                <App_Data App="MOD" Name="Ad_Break_1" Value="00:10:51;25" />
+                <App_Data App="MOD" Name="Ad_Break_2" Value="00:21:21;13" />
+                <App_Data App="MOD" Name="Ad_Break_3" Value="00:31:44;11" />
+                <App_Data App="MOD" Name="Ad_Break_4" Value="00:42:09;07" />
+                <App_Data App="MOD" Name="Ad_Break_5" Value="00:53:02;05" />
                 <App_Data App="MOD" Name="Ad_Break_6" Value="01:04:44;29" />
-			</Metadata>
-			<Content Value="Medora_Feature_2997fps_1080p.mp4" />
-		</Asset>
-		<Asset>
-			<Metadata>
-				<AMS Asset_Class="closed caption" Asset_ID="SWVM0000000000000044" Asset_Name="Medora-Caption" Creation_Date="2022-09-11" Description="Medora-Caption" Product="MOD" Provider="G&amp;S" Provider_ID="gunpowdersky.com" Verb="" Version_Major="1" Version_Minor="0" />
-				<App_Data App="MOD" Name="Type" Value="closed caption" />
-			</Metadata>
-			<Content Value="Medora_Feature_2997fps_1080p.scc" />
-		</Asset>
-        <Asset>           
+            </Metadata>
+            <Content Value="Medora_Feature_2997fps_1080p.mp4" />
+        </Asset>
+        <Asset>
+            <Metadata>
+                <AMS Asset_Class="closed caption" Asset_ID="SWVM0000000000000044" Asset_Name="Medora-Caption" Creation_Date="2022-09-11" Description="Medora-Caption" Product="MOD" Provider="G&amp;S" Provider_ID="gunpowdersky.com" Verb="" Version_Major="1" Version_Minor="0" />
+                <App_Data App="MOD" Name="Type" Value="closed caption" />
+            </Metadata>
+            <Content Value="Medora_Feature_2997fps_1080p.scc" />
+        </Asset>
+        <Asset>
             <Metadata>
                 <AMS Asset_Class="poster" Asset_ID="POST0000000000000044" Asset_Name="Medora-Poster" Creation_Date="2022-10-28" Description="Medora__HDTitle_Poster" Product="MOD" Provider="G&amp;S" Provider_ID="gunpowdersky.com" Version_Major="1" Version_Minor="0" />
                 <App_Data App="MOD" Name="Content_FileSize" Value="795" />
@@ -74,5 +75,5 @@
             </Metadata>
             <Content Value="Medora_1920x1080_landscape_keyart.jpg" />
         </Asset>
-	</Asset>
+    </Asset>
 </ADI>

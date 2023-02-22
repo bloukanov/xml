@@ -15,10 +15,16 @@ for file in os.listdir(vod_metadata_dir):
         root = tree.getroot()
         item = root[1][0]
         
-        item[18].attrib["Value"] = data_row["Title"].values[0]
-        item[17].attrib["Value"] = data_row["Summary"].values[0]
-        item[21].attrib["Value"] = str(data_row["Year"].values[0])
+        [title_item] = [x for x in item.findall("./") if x.attrib.get("Name") == "Title"]
+        title_item.attrib["Value"] = data_row["Title"].values[0]
+        
+        [summary_item] = [x for x in item.findall("./") if x.attrib.get("Name") == "Summary_Short"]
+        summary_item.attrib["Value"] = data_row["Summary"].values[0]
+        
+        [year_item] = [x for x in item.findall("./") if x.attrib.get("Name") == "Year"]
+        year_item.attrib["Value"] = str(data_row["Year"].values[0])
         ET.SubElement(item, f"""App_Data App="MOD" Name="Actors" Value="{data_row["Actors"].values[0]}\"""")
         
+        ET.indent(root, space="    ")
         tree.write(os.path.join(output_dir, file))
         
