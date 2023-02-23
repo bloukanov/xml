@@ -57,6 +57,13 @@
         </Asset>
         <Asset>
             <Metadata>
+                <AMS Asset_Class="closed caption" Asset_ID="SWVC2023022223306581" Asset_Name="4th and Goal-Caption" Creation_Date="2023-02-22" Description="4th and Goal-Caption" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
+                <App_Data App="MOD" Name="Type" Value="closed caption" />
+            </Metadata>
+            <Content Value="4th and Goal.scc" />
+        </Asset>
+        <Asset>
+            <Metadata>
                 <AMS Asset_Class="poster" Asset_ID="SWVI2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (poster)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (poster asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Version_Major="1" Version_Minor="0" />
                 <App_Data App="MOD" Name="Content_CheckSum" Value="2c4b8c637d1419f808af66f6d13be01b" />
                 <App_Data App="MOD" Name="Content_FileSize" Value="980105" />
