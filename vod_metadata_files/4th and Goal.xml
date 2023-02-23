@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ADI SYSTEM "ADI.DTD">
+<ADI>
+  <Metadata>
+    <AMS Asset_Class="package" Asset_ID="SWVP2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (package)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (package asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Version_Major="1" Version_Minor="0" />
+    <App_Data App="MOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1" />
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="SWVT2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (title)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (title asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Version_Major="1" Version_Minor="0" />
+      <App_Data App="MOD" Name="Ad_Content_ID" Value="112233445566" />
+      <App_Data App="MOD" Name="Billing_ID" Value="6581B" />
+      <App_Data App="MOD" Name="Category" Value="Sports/Outdoors" />
+      <App_Data App="MOD" Name="Closed_Captioning" Value="Y" />
+      <App_Data App="MOD" Name="Display_As_Last_Chance" Value="7" />
+      <App_Data App="MOD" Name="Display_Run_Time" Value="01:31" />
+      <App_Data App="MOD" Name="Genre" Value="Documentary" />
+      <App_Data App="MOD" Name="Licensing_Window_End" Value="2025-11-17" />
+      <App_Data App="MOD" Name="Licensing_Window_Start" Value="2023-02-22" />
+      <App_Data App="MOD" Name="Preview_Period" Value="300" />
+      <App_Data App="MOD" Name="Program_Type" Value="movie" />
+      <App_Data App="MOD" Name="Provider_QA_Contact" Value="trey@swerve.tv" />
+      <App_Data App="MOD" Name="Rating" Value="NR" />
+      <App_Data App="MOD" Name="Run_Time" Value="01:31:26" />
+      <App_Data App="MOD" Name="Show_Type" Value="Sports" />
+      <App_Data App="MOD" Name="Sling_Category" Value="X" />
+      <App_Data App="MOD" Name="Summary_Short" Value="4thAndGoal_GRAV00731_Feature 6581" />
+      <App_Data App="MOD" Name="Title" Value="4thAndGoal_GRAV00731_Feature 6581" />
+      <App_Data App="MOD" Name="Title_Brief" Value="4thAndGoal_GRA 6581" />
+      <App_Data App="MOD" Name="Type" Value="title" />
+      <App_Data App="MOD" Name="Year" Value="2023" />
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="SWVM2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (movie)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (movie asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Type="movie" Version_Major="1" Version_Minor="0" />
+        <App_Data App="MOD" Name="Ad_Break_0" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_1" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_10" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_11" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_12" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_2" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_3" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_4" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_5" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_6" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_7" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_8" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Ad_Break_9" Value="00:00:00;00" />
+        <App_Data App="MOD" Name="Audio_Type" Value="Stereo" />
+        <App_Data App="MOD" Name="Bit_Rate" Value="8064" />
+        <App_Data App="MOD" Name="Content_CheckSum" Value="b4a7120d681721f2c83e1de0938fd711" />
+        <App_Data App="MOD" Name="Content_FileSize" Value="5529828011" />
+        <App_Data App="MOD" Name="HDContent" Value="Y" />
+        <App_Data App="MOD" Name="Languages" Value="e" />
+        <App_Data App="MOD" Name="Languages" Value="n" />
+        <App_Data App="MOD" Name="Type" Value="movie" />
+      </Metadata>
+      <Content Value="4thAndGoal_GRAV00731_Feature.mp4" />
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="SWVI2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (poster)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (poster asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Version_Major="1" Version_Minor="0" />
+        <App_Data App="MOD" Name="Content_CheckSum" Value="2c4b8c637d1419f808af66f6d13be01b" />
+        <App_Data App="MOD" Name="Content_FileSize" Value="980105" />
+        <App_Data App="MOD" Name="Image_Aspect_Ratio" Value="1920x1080" />
+        <App_Data App="MOD" Name="Type" Value="poster" />
+      </Metadata>
+      <Content Value="4thAndGoal_GRAV00731_Feature_poster.jpg" />
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="box cover" Asset_ID="SWVB2023022223306581" Asset_Name="4thAndGoal_GRAV00731 6581 (box cover)" Creation_Date="2023-02-22" Description="4thAndGoal_GRAV00731 6581 (box cover asset)" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Version_Major="1" Version_Minor="0" />
+        <App_Data App="MOD" Name="Content_CheckSum" Value="2c4b8c637d1419f808af66f6d13be01b" />
+        <App_Data App="MOD" Name="Content_FileSize" Value="980105" />
+        <App_Data App="MOD" Name="Image_Aspect_Ratio" Value="1920x1080" />
+        <App_Data App="MOD" Name="Type" Value="box cover" />
+      </Metadata>
+      <Content Value="4thAndGoal_GRAV00731_Feature_box_cover.jpg" />
+    </Asset>
+  </Asset>
+</ADI>

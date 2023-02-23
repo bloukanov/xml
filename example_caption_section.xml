@@ -1,0 +1,8 @@
+<Asset>
+    <Metadata>
+            <AMS Asset_Class="closed caption" Asset_ID="SWVC0000000000000000" Asset_Name="Title-Caption" Creation_Date="2022-09-11" Description="Title-Caption" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0"/>
+            <App_Data App="MOD" Name="Type" Value="closed caption"/>
+    </Metadata>
+    <Content Value="Title.scc"/>
+</Asset>
+        
