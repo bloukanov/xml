@@ -19,7 +19,7 @@ movie_metadata_to_adjust = [
     "Rating"
 ] 
 
-n_app_break_cols = 12
+n_ad_break_cols = 12
 
 for file in os.listdir(vod_metadata_dir):
     if file.endswith(".xml"):
@@ -36,11 +36,15 @@ for file in os.listdir(vod_metadata_dir):
             [item] = [child for child in title_metadata if child.get("Name") == metadata_item]
             item.attrib["Value"] = str(data_row[metadata_item].values[0])
 
-        for i in range(n_app_break_cols):
-            adb_item = root.find(f".//App_Data[@Name='Ad_Break_{i+1}']")
-            adb_item.attrib["Value"] = str(data_row[f"Ad_Break_{i+1}"].values[0])
+        for i in range(n_ad_break_cols):
+            if not pd.isnull(data_row[f"Ad_Break_{i+1}"].values[0]):
+                adb_item = root.find(f".//App_Data[@Name='Ad_Break_{i+1}']")
+                adb_item.attrib["Value"] = str(data_row[f"Ad_Break_{i+1}"].values[0])
+            else:
+                # Remove the ad break if it's in the vod_metadata xml but not in the data csv
+                if root.find(f".//App_Data[@Name='Ad_Break_{i+1}']") is not None:
+                    movie_metadata.remove(root.find(f".//App_Data[@Name='Ad_Break_{i+1}']"))
 
-        # Caption Section should go after the 'Movie' asset
         parent_asset.insert(2, ET.Element("Asset"))
         caption_asset = parent_asset[2]
         ET.SubElement(caption_asset, "Metadata")
