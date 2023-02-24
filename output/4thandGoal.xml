@@ -55,7 +55,7 @@
                 <AMS Asset_Class="closed caption" Asset_ID="SWVC2023022400312340" Asset_Name="4th and Goal-Caption" Creation_Date="2023-02-24" Description="4th and Goal-Caption" Product="MOD" Provider="Swerve" Provider_ID="swerve.tv" Verb="" Version_Major="1" Version_Minor="0" />
                 <App_Data App="MOD" Name="Type" Value="closed caption" />
             </Metadata>
-            <Content Value="4th and Goal.scc" />
+            <Content Value="4thandGoal.scc" />
         </Asset>
         <Asset>
             <Metadata>

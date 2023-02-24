@@ -23,8 +23,8 @@ n_ad_break_cols = 12
 
 for file in os.listdir(vod_metadata_dir):
     if file.endswith(".xml"):
-        title = file.split(".")[0]
-        data_row = data.loc[data["Title"] == title]
+        title_nospace = file.split(".")[0]
+        data_row = data.loc[data["Title_nospace"] == title_nospace]
         tree = ET.parse(os.path.join(vod_metadata_dir, file))
         root = tree.getroot()
         # title_metadata = root[1][0]
@@ -50,6 +50,7 @@ for file in os.listdir(vod_metadata_dir):
         ET.SubElement(caption_asset, "Metadata")
         caption_metadata = caption_asset[0]
         caption_asset_id = movie_metadata.find("AMS").attrib["Asset_ID"].replace("M", "C")
+        title = data_row["Title"].values[0]
         ET.SubElement(caption_metadata, "AMS", {"Asset_Class": "closed caption", 
                                                 "Asset_ID": caption_asset_id,
                                                 "Asset_Name": f"{title}-Caption",
@@ -62,7 +63,7 @@ for file in os.listdir(vod_metadata_dir):
                                                 "Version_Major": "1",
                                                 "Version_Minor": "0"})
         ET.SubElement(caption_metadata, "App_Data", {"App": "MOD", "Name": "Type", "Value": "closed caption"})
-        ET.SubElement(caption_asset, "Content", {"Value": f"{title}.scc"})
+        ET.SubElement(caption_asset, "Content", {"Value": f"{title_nospace}.scc"})
 
         # ET.SubElement(
         #     title_metadata, "App_Data", {"App": "MOD", "Name": "Actors", "Value": data_row["Actors"].values[0]}
